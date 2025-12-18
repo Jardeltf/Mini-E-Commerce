@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Apple Watch",
+    "price": 1299.90,
+    "category": "Acessórios",
+    "image": "./assets/apple_watch.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cinto de Couro",
+    "price": 79.90,
+    "category": "Acessórios",
+    "image": "./assets/belt.png"
+  },
+  {
+    "id": 3,
+    "name": "Jaqueta Jeans",
+    "price": 199.90,
+    "category": "Roupas",
+    "image": "./assets/denim_jacket.png"
+  },
+  {
+    "id": 4,
+    "name": "Tênis Esportivo Branco",
+    "price": 249.90,
+    "category": "Calçados",
+    "image": "./assets/sneakers.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tênis Casual Cinza",
+    "price": 229.90,
+    "category": "Calçados",
+    "image": "./assets/sneakers2.png"
+  },
+  {
+    "id": 6,
+    "name": "Camiseta Preta Básica",
+    "price": 59.90,
+    "category": "Roupas",
+    "image": "./assets/t-shit_black.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Camiseta Preta Estilizada",
+    "price": 79.90,
+    "category": "Roupas",
+    "image": "./assets/t-shit_black2.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Relógio Premium",
+    "price": 899.90,
+    "category": "Acessórios",
+    "image": "./assets/Watch.png"
+  },
+  {
+    "id": 9,
+    "name": "Tênis Branco",
+    "price": 199.90,
+    "category": "Calçados",
+    "image": "./assets/White_sneaker.png"
+  }
+]

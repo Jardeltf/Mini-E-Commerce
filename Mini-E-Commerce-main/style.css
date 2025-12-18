@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #1e88e5;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+header h1 {
+  /* Centraliza o título no espaço que sobra */
+  flex-grow: 1; 
+  text-align: center;
+  margin: 0;
+}
+
+#filters {
+  padding: 10px 20px;
+}
+
+#product-list {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  /* Define um layout fluido que se ajusta de 200px até o tamanho da coluna (1fr) */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+}
+
+.product {
+  /*border: none;*/
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#cart {
+  position: fixed;
+  top: 0;
+  right: -350px;
+  width: 300px;
+  height: 100vh;
+  background: white;
+  box-shadow: -4px 0 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  transition: 0.3s;
+  z-index: 10; /* Garante que o carrinho fique sobre outros elementos */
+}
+
+#cart.open {
+  right: 0;
+}
+
+/* --------------------------------- */
+/* NOVO: Media Query para Responsividade */
+/* --------------------------------- */
+@media (max-width: 600px) {
+  
+  /* Ajusta o cabeçalho em telas pequenas (empilha itens) */
+  header {
+    flex-direction: column; 
+    text-align: center;
+  }
+  
+  /* Garante que o filtro use a largura total */
+  #filters {
+    padding: 10px;
+    text-align: center;
+  }
+  #categoryFilter {
+    width: 90%;
+    padding: 10px;
+  }
+
+  /* Garante que em telas pequenas a lista de produtos tenha apenas 1 coluna */
+  #product-list {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Otimiza o tamanho do carrinho para telas menores */
+  #cart {
+    width: 280px; /* Reduz ligeiramente a largura do carrinho */
+  }
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #ccc;
+}
+
+#cart-items li div {
+    display: flex; /* Garante que os botões fiquem lado a lado */
+    align-items: center;
+}
+ */
+#cart-items li div button {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 5px;
+    padding: 0; /* Remove padding que pode afetar o tamanho final */
+    line-height: 1; /* Ajuda a centralizar o texto/símbolo */
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px; /* Adiciona um toque estético */
+}
+
+
+

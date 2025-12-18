@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo + Carrinho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Catálogo de Produtos</h1>
+    <button id="btn-cart">🛒 Carrinho</button>
+  </header>
+
+  <section id="filters">
+   <select id="categoryFilter">
+      <option value="all">Todas categorias</option>
+      <option value="Roupas">Roupas</option>
+      <option value="Calçados">Calçados</option>
+      <option value="Acessórios">Acessórios</option>
+    </select>
+  </section>
+
+<main id="product-list"></main>
+
+<!-- Carrinho lateral -->
+  <aside id="cart">
+    <h2>Carrinho</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: R$ 0,00</p>
+    <button id="close-cart">Fechar</button>
+  </aside>
+  
+  <script src="app.js"></script>
+
+</body>
+</html>
