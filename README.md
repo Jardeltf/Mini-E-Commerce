@@ -21,16 +21,15 @@ A aplicação permite aos usuários navegar por um catálogo de produtos, filtra
 ### 1 - Páginal inicial com todos os produtos
 ![Página Inicial do Mini E-Commerce](./Screenshots/Imagem1.png)
 
-### 2 - Páginal inicial apenas produtos de vestuário
+### 2 - Páginal inicial com apenas produtos de vestuário
 ![Página Inicial do Mini E-Commerce](./Screenshots/Imagem2.png)
 
-### 3 - Páginal inicial apenas calçados
+### 3 - Páginal inicial com apenas calçados
 ![Página Inicial do Mini E-Commerce](./Screenshots/Imagem3.png)
 
 ### 4 - Produtos que estão no carrinho
 ![Página Inicial do Mini E-Commerce](./Screenshots/Imagem4.png)
 
-> 💡 **Nota:** Adicione uma captura de tela ou GIF mostrando o projeto em funcionamento.
 
 ---
 
